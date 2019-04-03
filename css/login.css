@@ -1,0 +1,67 @@
+/* 我的音乐 */
+.myLogin {
+    width: 858px;
+    height: 590px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    overflow: hidden;
+}
+.myLogin .img {
+    width: 565px;
+    height: 188px;
+    margin: 90px auto;
+    background: url("/music/img/bg_login.png") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.myLogin .img a {
+    width: 117px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    right: 111px;
+    bottom: 16px;
+}
+.myLogin .img a img {
+    display: none;
+}
+.myLogin .img a:hover img {
+    display: block;
+}
+
+/*----------------*/
+/* 朋友 */
+.flogin {
+    width: 858px;
+    height: 590px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    overflow: hidden;
+}
+.flogin .img {
+    width: 600px;
+    height: 300px;
+    margin: 90px auto;
+    background: url("/music/img/bg_notlogin.jpg") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.flogin .img a {
+    width: 110px;
+    height: 35px;
+    display: block;
+    position: absolute;
+    right: 116px;
+    bottom: 85px;
+}
+.flogin .img a img {
+    display: none;
+}
+.flogin .img a:hover img {
+    display: block;
+}
+/*------*/
